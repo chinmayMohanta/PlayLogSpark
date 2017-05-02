@@ -13,7 +13,7 @@ For the purpose demonstration, the application is configured to run in the stand
 	<>The result directory is for result files. The enrich_pop.json and aggregate_pop.json files will be generated in this location.
 
 # Running the program:
-Lauch the program using spark-submit:
+Please lauch the program using spark-submit:
 
  spark-submit --class test.PlayLogTest test/app/pop-test.jar  YYYY-MM-DD
 
