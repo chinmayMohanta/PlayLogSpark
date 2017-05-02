@@ -17,8 +17,9 @@ Please launch the program using spark-submit:
 
  spark-submit --class test.PlayLogTest test/app/pop-test.jar  YYYY-MM-DD
 
-Example: spark-submit --class test.PlayLogTest test/app/pop-test.jar 2017-03-29
-	It will process only the logs after 2017-03-29 (inclusive) and genereate enrich_pop.json and aggregate_pop.json
+Example: spark-submit --class test.PlayLogTest test/app/pop-test.jar  2017-03-29
+
+The above command will process only the logs after 2017-03-29 (inclusive) and will genereate enrich_pop.json and aggregate_pop.json files.
 
 
 Addition information:
