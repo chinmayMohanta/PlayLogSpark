@@ -1,0 +1,2 @@
+# PlayLogSpark
+ Log (structured) analysis
