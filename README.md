@@ -8,9 +8,9 @@ For the purpose demonstration, the application is configured to run in the stand
 # Directory structure:
 
 1. In the spark bin directory create the subdirectory "test". Inside test create three sub directories "app","input" and "result".
--The app directory is for application jar. Please put the  pop_test.jar in this directory.
--The input directory is for the input files, please put raw_pop.json and campaign.csv in this directory.
--The result directory is for result files. The enrich_pop.json and aggregate_pop.json files will be generated in this location.
+	The app directory is for application jar. Please put the  pop_test.jar in this directory.
+	The input directory is for the input files, please put raw_pop.json and campaign.csv in this directory.
+	The result directory is for result files. The enrich_pop.json and aggregate_pop.json files will be generated in this location.
 
 # Running the program:
 Lauch the program using spark-submit:
@@ -18,8 +18,7 @@ Lauch the program using spark-submit:
  spark-submit --class test.PlayLogTest test/app/pop-test.jar  YYYY-MM-DD
 
 Example: spark-submit --class test.PlayLogTest test/app/pop-test.jar 2017-03-29
-
--It will process only the logs after 2017-03-29 (inclusive) and genereate enrich_pop.json and aggregate_pop.json
+	It will process only the logs after 2017-03-29 (inclusive) and genereate enrich_pop.json and aggregate_pop.json
 
 
 Addition information:
