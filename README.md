@@ -3,7 +3,7 @@
 
 
 # IMPORTANT ASSUMTION::  
-For the purpose demonstration, the application is configured to run in the standalone (single node) mode. In other words all the reads/writes are from/to the local file system. But it can easily be cofigured for any distributed file system such as HDFS.
+For the purpose of demonstration, the application is configured to run in the standalone (single node) mode. In other words all the reads/writes are from/to the local file system. But it can easily be cofigured for any distributed file system such as HDFS.
 
 # Directory structure:
 
